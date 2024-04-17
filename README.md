@@ -17,4 +17,16 @@ Messages queued for processing are retrieved and processed at regular intervals,
 
 This approach enables asynchronous communication, scalability, and reliability in handling data processing tasks within a cloud-based environment.
 ```
-2. 
+2. Jenkins Install AWS
+
+```bash
+This tutorial provides a comprehensive guide to installing and configuring Jenkins on an AWS t2.micro EC2 instance.
+It begins with setting up the EC2 instance, configuring security groups, and accessing the instance via SSH.
+The installation process involves installing Java version 11, adding Jenkins repository, importing validation keys, and installing Jenkins.
+Optional steps include installing fontconfig.
+Following installation, Jenkins is configured by running the WAR file on port 8200, accessing the UI, and setting up the node as a runner/executor.
+Swap space management and running Jenkins in the background are also covered.
+This tutorial ensures a smooth setup for utilizing Jenkins on AWS for continuous integration and deployment workflows.
+```
+
+3. 
